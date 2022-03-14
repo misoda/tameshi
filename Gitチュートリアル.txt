@@ -1,0 +1,110 @@
+
+【Git入門講座 合併版】この動画1本でGitとGitHubの基礎をゼロからマスター！【初心者向け
+https://www.youtube.com/watch?v=WHwuNP4kalU
+
+
+git init
+
+ワークツリー add ステージ commit リポジトリ
+
+git add .
+
+git commit -m "commit message"
+
+状況確認
+
+リポジトリ diff ワークツリー diff ステージ
+                   status
+
+git diff
+
+git diff --stage
+
+git status
+
+
+履歴の確認
+
+リポジトリ log
+
+git log
+
+
+リポジトリ  変更 ワークツリー add ステージ
+           restore          restore
+
+
+git restore (filename)
+
+git restore --staged (filename)
+
+
+ブランチ作成
+
+git branch (branch name) → ブランチ作成
+
+git branch → 一覧
+
+git branch -a → すべての一覧
+
+ブランチ切り替え
+
+git switch → HEADを変える
+
+git switch (branch name) → 切り替える
+
+git switch -c (branch name) → 作って切り替える
+
+マージ
+
+git merge (branch name)
+
+git merge (remote name)/(branch name)
+
+コンフリクト
+
+
+GitHubにアップ
+
+GitHub登録
+
+Gitの初期設定
+
+git config -global user.name "GitHub user name"
+
+git config --global usen.email mail-address
+
+リポジトリ作成（ローカルと同じ名前）
+
+リポジトリ追加
+
+gir remote add (remote-name) (URL)
+
+PUSH アップする
+
+git push remote-name branch-name
+
+
+PULL ローカルに取り込み
+
+git pull remote-name branch-name
+
+FETCH
+
+git fetch remote-name
+
+pull = merget + fetch
+
+PULL REQUEST
+自分の修正のレビューをリクエスト
+
+
+-------------------------------------------------
+エンジニアの必須スキルGitで出来ること3選【Git入門講座#1】
+https://www.youtube.com/watch?v=dzcBRwP-6rM
+
+
+
+
+
+作成日: 2022年3月14日（月） 18時39分
