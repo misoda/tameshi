@@ -1,4 +1,7 @@
 
+
+22/03/15 追加しました。
+
 【Git入門講座 合併版】この動画1本でGitとGitHubの基礎をゼロからマスター！【初心者向け
 https://www.youtube.com/watch?v=WHwuNP4kalU
 
