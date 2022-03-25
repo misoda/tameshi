@@ -4,8 +4,134 @@
   <Header>
     <Version val="14071.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="0"/>
+    <LastIsn val="8"/>
     <LastIsnFolder val="0"/>
   </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="pb.doit">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="1"/>
+          </RaiseEvent>
+          <V11ButtonStyle id="537" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="pb.doit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="1"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="1"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <DefaultValue id="170" val="doit"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="5"/>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="5"/>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="pb.exit">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="13"/>
+          </RaiseEvent>
+          <V11ButtonStyle id="537" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="pb.exit">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="3"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="3"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <DefaultValue id="170" val="exit"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="6"/>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+              <Model comp="-1" id="1" obj="6"/>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="pb.doit">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="pb.exit">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="13"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="Form STD">
+        <PropertyList model="FORM_GUI0">
+          <Width id="23" val="400"/>
+          <Height id="24" val="320"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="2"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="6"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="Form MDI">
+        <PropertyList model="FORM_GUI0">
+          <Width id="23" val="400"/>
+          <Height id="24" val="320"/>
+          <TitleBar id="26"/>
+          <SystemMenu id="27"/>
+          <MinimizeButton id="28"/>
+          <MaximizeButton id="29"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="2"/>
+          <BorderStyle id="64" val="3"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WindowType id="358" val="9"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
 
 </Application>

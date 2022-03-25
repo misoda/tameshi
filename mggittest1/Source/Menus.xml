@@ -4,7 +4,7 @@
   <Header>
     <Version val="14071.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="1"/>
+    <LastIsn val="2"/>
   </Header>
 
   <MenusRepository>
@@ -636,6 +636,30 @@
               <Prompt comp="-1"/>
             </MenuEntry>
           </Menu>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <MenuType val="4"/>
+        <ToolNumber val="2"/>
+        <Name val="Default Pulldown menu"/>
+        <LastIsn val="3"/>
+        <MenuEntry id="1">
+          <MenuType val="2"/>
+          <Description_U val="create table"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="2" comp="-1" obj="2"/>
+          <SourceContext val="67"/>
+        </MenuEntry>
+        <MenuEntry id="2">
+          <MenuType val="2"/>
+          <Description_U val="照会 - NA"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Program ObjIsn="3" comp="-1" obj="3"/>
+          <SourceContext val="67"/>
         </MenuEntry>
       </Menu>
     </Menus>

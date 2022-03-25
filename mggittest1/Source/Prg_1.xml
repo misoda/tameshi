@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="Y">
-        <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
+        <Header Description="メインプログラム" ISN_2="1" LastIsn="1" id="1">
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738239" _time="63993" date="2022/03/25" time="17:46:33"/>
+          <LastModified _date="737278" _time="57902" date="2019/08/07" time="16:05:02"/>
         </Header>
         <Resource>
           <Columns/>
@@ -108,21 +108,25 @@
             <PropertyList model="FORM_GUI0">
               <X id="21"/>
               <Y id="22"/>
-              <Width id="23" val="320"/>
-              <Height id="24" val="200"/>
+              <Width id="23" val="502"/>
+              <Height id="24" val="366"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
               <HorizontalFactor id="35" val="4"/>
-              <Color id="51" val="3"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="mggittest1"/>
+              <StartupPosition id="275" val="6"/>
+              <FormName id="311" valUnicode="メインプログラム"/>
               <WindowType id="358" val="11"/>
-              <StartupMode id="362" val="2"/>
-              <_PulldownMenu comp="-1" id="441" obj="1"/>
+              <_PulldownMenu comp="-1" id="441" obj="2"/>
               <AllowScaling id="731"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
+        <EVNT DESC="u.doit" FORCE_EXIT="E" id="1">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
       </Task>
     </Programs>
   </ProgramsRepository>
