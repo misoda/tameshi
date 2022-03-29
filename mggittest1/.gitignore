@@ -1,3 +1,8 @@
 /Source/ProgramHeaders.xml
 /Source/DataSourcesIndex.xml
 *.log
+*.sln
+*.xpaproj
+*.dat
+*.lock
+*.sqlite
