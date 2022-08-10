@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="tmp" ISN_2="1" LastIsn="1" id="4">
+        <Header Description="PRG4 プログラム名を貼付に変えた" ISN_2="1" LastIsn="1" id="4">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738377" _time="66456" date="2022/08/10" time="18:27:36"/>
+          <LastModified _date="738377" _time="66943" date="2022/08/10" time="18:35:43"/>
         </Header>
         <ItemIsn val="2"/>
         <Resource>
@@ -195,9 +195,8 @@
         <TaskForms>
           <FormEntry _last_isn="6" _last_test_id="6" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Model id="1"/>
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="tmp"/>
+              <FormName id="311" valUnicode="PRG4 プログラム名を貼付に変えた"/>
             </PropertyList>
             <Control _test_id="5" id="67108869">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
@@ -207,6 +206,7 @@
                 <Width id="23" val="17"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="3" id="67108867">
@@ -231,6 +231,7 @@
                 <Width id="23" val="17"/>
                 <Height id="24" val="9"/>
                 <Style id="63" val="7"/>
+                <_Orientation id="143"/>
               </PropertyList>
             </Control>
             <Control _test_id="4" id="67108868">
