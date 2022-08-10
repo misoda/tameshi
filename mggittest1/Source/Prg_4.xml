@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14071.00"/>
+    <Version val="14081.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -28,7 +28,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738243" _time="42355" date="2022/03/29" time="11:45:55"/>
+          <LastModified _date="738377" _time="64243" date="2022/08/10" time="17:50:43"/>
         </Header>
         <ItemIsn val="1"/>
         <Resource>
@@ -36,7 +36,10 @@
             <Column id="1" name="aaa">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="5"/>
                 <StoredAs id="173" val="1"/>
+                <Size id="174" val="5"/>
+                <_Flip id="194"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -109,6 +112,7 @@
             <Event>
               <EventType val="S"/>
             </Event>
+            <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
                 <DATAVIEW_SRC FlowIsn="1" Type="M">
@@ -123,6 +127,7 @@
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -143,7 +148,6 @@
               <Parent val="32768"/>
               <PublicObject comp="-1" obj="1"/>
             </Event>
-            <Expanded val="1"/>
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
@@ -152,7 +156,7 @@
                   <Event>
                     <EventType val="N"/>
                   </Event>
-                  <TaskID comp="-1"/>
+                  <TaskID comp="-1" obj="4"/>
                   <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
@@ -167,13 +171,36 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Width id="23" val="480"/>
-              <Height id="24" val="300"/>
+              <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="tmp"/>
             </PropertyList>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="aaa:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="17"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT" id="1">
+                  <Var FieldID="1"/>
+                </Model>
+                <X id="21" val="25"/>
+                <Y id="22" val="8"/>
+                <Width id="23" val="24"/>
+                <Height id="24" val="13"/>
+                <Data FieldID="1" id="43"/>
+                <ControlName id="46" val="aaa"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
