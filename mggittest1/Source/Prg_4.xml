@@ -26,11 +26,11 @@
           <Interactive val="Y"/>
           <External val="N"/>
           <Offline val="N"/>
-          <FormType val="M"/>
+          <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738377" _time="64243" date="2022/08/10" time="17:50:43"/>
+          <LastModified _date="738377" _time="66456" date="2022/08/10" time="18:27:36"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns>
             <Column id="1" name="aaa">
@@ -39,6 +39,15 @@
                 <Picture id="157" valUnicode="5"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="5"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="67108866" name="bbb">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -134,6 +143,19 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="67108866" FlowIsn="67108870" id="67108866">
+                  <Column val="67108866"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="4"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
           </LogicUnit>
           <LogicUnit id="3" propagate="78">
@@ -156,7 +178,7 @@
                   <Event>
                     <EventType val="N"/>
                   </Event>
-                  <TaskID comp="-1" obj="4"/>
+                  <TaskID comp="-1" obj="3"/>
                   <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
@@ -171,13 +193,13 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="2" _last_test_id="2" id="1">
+          <FormEntry _last_isn="6" _last_test_id="6" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
               <Model id="1"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="tmp"/>
             </PropertyList>
-            <Control _test_id="2" id="2">
+            <Control _test_id="5" id="67108869">
               <PropertyList model="CTRL_RICH_CLIENT_LABEL">
                 <Text id="19" valUnicode="aaa:"/>
                 <X id="21" val="4"/>
@@ -187,7 +209,7 @@
                 <Style id="63" val="7"/>
               </PropertyList>
             </Control>
-            <Control _test_id="1" id="1">
+            <Control _test_id="3" id="67108867">
               <PropertyList model="CTRL_RICH_CLIENT_EDIT">
                 <Model ID="MODEL_RICH_CLIENT" id="1">
                   <Var FieldID="1"/>
@@ -199,6 +221,30 @@
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="aaa"/>
                 <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="6" id="67108870">
+              <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+                <Text id="19" valUnicode="bbb:"/>
+                <X id="21" val="4"/>
+                <Y id="22" val="29"/>
+                <Width id="23" val="17"/>
+                <Height id="24" val="9"/>
+                <Style id="63" val="7"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="67108868">
+              <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+                <Model ID="MODEL_RICH_CLIENT" id="1">
+                  <Var FieldID="67108866"/>
+                </Model>
+                <X id="21" val="25"/>
+                <Y id="22" val="29"/>
+                <Width id="23" val="44"/>
+                <Height id="24" val="13"/>
+                <Data FieldID="67108866" id="43"/>
+                <ControlName id="46" val="bbb"/>
+                <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
           </FormEntry>
